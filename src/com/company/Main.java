@@ -10,7 +10,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
         if(!input.isEmpty()){
-            System.out.println("Can you name all 36 of your classmates? Type 'hint' to get a hint and 'i give up' if you'd like to leave the game \n (enter your name to play!)");
+            System.out.println("Can you name all 37 of your classmates? Type 'hint' to get a hint and 'i give up' if you'd like to leave the game \n (enter your name to play!)");
         }
         BeginGame beginGame = new BeginGame();
         beginGame.game();
