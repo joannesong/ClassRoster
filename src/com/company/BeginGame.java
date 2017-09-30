@@ -12,7 +12,7 @@ public class BeginGame {
 
     public static void game(){
         String[] roster = {"amar", "lelucksamee", "fransisco", "jervon", "boubacor", "anas", "laquana", "daniel", "elle",  "nikunjan", "melina", "ashley", "volha", "wayne", "anne", "vivian", "yoke", "victoria", "siran", "yisandy", "mustafizur", "muaadh", "tatiana","mohammad","tariqua", "muhaimen", "darnell", "amirah", "murodjon", "bryant", "amy", "oleg", "joanne", "shantal", "kevin", "niema", "taishawn"};
-        System.out.println(roster.length);
+
         ArrayList<String> classmates = new ArrayList<>();
         for(int j = 0; j <roster.length; j++){
             classmates.add(roster[j]);
